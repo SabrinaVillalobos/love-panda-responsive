@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+  font-family: Raleway;
+  color: #fff;
+}
+
+.header {
+  width: 100%;
+  background-color:#F78E69;
+  padding:4%;
+}
+
+h1{
+  text-align: right;
+  font-size: 3rem;
+}
+
+p {
+  text-align: right;
+  font-size: 1rem;
+}
+
+#panda1 {
+  background-image: url("../img/uno.jpg");
+  height: 440px;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+#block2 {
+  background-color: #ABE188;
+  height: 530px;
+  border:24px #F78E69 solid;
+  border-left:0;
+  border-right: 0;
+  padding-left: 30%;
+  padding-top:5%;
+}
+
+#block2text {
+  background-color: #F78E69;
+  padding-left:2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  width: 35rem;
+}
+
+.about {
+  font-size: 1.5rem;
+  text-align: center;
+  padding:3%;
+}
+
+#img2{
+  background-image: url(../img/dos.jpg);
+  height: 662px;
+  background-repeat: no-repeat;
+  background-position: 0 0%;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+#block3{
+  background-color: #ABE188;
+  border:24px #F78E69 solid;
+  border-left:0;
+  border-right: 0;
+  height: 521px;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.pic {
+  padding-top: 5%;
+}
+
+img {
+  border:10px #fff solid;
+  margin:18px;
+  margin-top:40px;
+}
+
+#pic3 {
+  background-image: url("../img/tres.jpg");
+  height: 660px;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+#footer {
+  background-color: #F78E69;
+  text-align: right;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding:1.2%;
+}
+
+@media (max-width: 575px) {
+  [class*="col"] {
+    width: 100%
+  }
+}
+@media (min-width: 360px) and (max-width: 640px) { /*s5*/
+.header {
+  width: 100%;
+  height: 100px;
+  background-color:#F78E69;
+  padding:4%;
+}
+
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    
+}
+@media (min-width: 768px) and (max-width: 991px){}
+@media (min-width: 992px) and (max-width: 1199px){}
+@media (min-width: 1200px){}
